@@ -29,12 +29,12 @@ Hello, Ann
 Goodbye!
 ```
 ###  Фаҳмондашавӣ:
-```
-greet(name, callback) функсияест, ки callback-ро қабул мекунад.
-Вақте ки greet("Ann", sayGoodbye) даъват мешавад:
+```js
+greet(name, callback) ///функсияест, ки callback-ро қабул мекунад.
+Вақте ки greet("Ann", sayGoodbye) ////даъват мешавад:
 
-- console.log("Hello, " + name) → "Hello, Ann" менависад.
-- callback() → sayGoodbye() даъват шуда, "Goodbye!"-ро чоп мекунад.
+- console.log("Hello, " + name) ///→ "Hello, Ann" менависад.
+- callback() ///→ sayGoodbye() даъват шуда, "Goodbye!"-ро чоп мекунад.
 ```
 ### Callback дар методҳои массив
 
