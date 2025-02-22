@@ -23,17 +23,17 @@ function sayGoodbye() {
   console.log("Goodbye!");
 }
 
-greet("Zainulobiddin", sayGoodbye);
+greet("Ann", sayGoodbye);
 
-Hello, Zainulobiddin
+Hello, Ann
 Goodbye!
 
 ###  Фаҳмондашавӣ:
 
 greet(name, callback) функсияест, ки callback-ро қабул мекунад.
-Вақте ки greet("Zainulobiddin", sayGoodbye) даъват мешавад:
+Вақте ки greet("Ann", sayGoodbye) даъват мешавад:
 
-- console.log("Hello, " + name) → "Hello, Zainulobiddin" менависад.
+- console.log("Hello, " + name) → "Hello, Ann" менависад.
 - callback() → sayGoodbye() даъват шуда, "Goodbye!"-ро чоп мекунад.
 
 ### Callback дар методҳои массив
